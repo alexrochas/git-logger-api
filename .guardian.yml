@@ -1,0 +1,5 @@
+files: ./**/*.cr
+run: crystal build ./src/git-logger-api.cr
+---
+files: ./shard.yml
+run: crystal deps

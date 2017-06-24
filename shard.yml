@@ -1,0 +1,19 @@
+name: git-logger-api
+version: 0.1.0
+
+authors:
+  - Alex Rocha <alex.rochas@yahoo.com.br>
+  - Hyan Mandian <hyanmandian@hotmail.com>
+
+targets:
+  git-logger-api:
+    main: src/git-logger-api.cr
+
+crystal: 0.22.0
+
+license: MIT
+
+dependencies:
+    kemal:
+        github: kemalcr/kemal
+        branch: master
