@@ -13,6 +13,6 @@ module Git::Logger::Api
         end
     end
 
-    Kemal.run(ENV["PORT"])
+    Kemal.run(ENV["PORT"].to_i)
 
 end
