@@ -1,1 +1,0 @@
-web: ./git-logger-api
