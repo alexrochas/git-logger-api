@@ -1,27 +1,14 @@
-# git-logger-api
-
-TODO: Write a description here
-
-## Installation
-
-TODO: Write installation instructions here
-
-## Usage
-
-TODO: Write usage instructions here
+# Git Logger API
+> An minimal api to collect git usage data
 
 ## Development
 
-TODO: Write development instructions here
+Run the project:
+```shell
+~/[path_to_project]$ crystal ./src/git-logger-api.cr
+```
 
-## Contributing
+Watch for file changes with [Guardian](https://github.com/f/guardian)  
+How-to install and documentation, look for [Crystal homepage](https://crystal-lang.org/)
 
-1. Fork it ( https://github.com/[your-github-name]/git-logger-api/fork )
-2. Create your feature branch (git checkout -b my-new-feature)
-3. Commit your changes (git commit -am 'Add some feature')
-4. Push to the branch (git push origin my-new-feature)
-5. Create a new Pull Request
 
-## Contributors
-
-- [[your-github-name]](https://github.com/[your-github-name]) Alex Rocha - creator, maintainer
