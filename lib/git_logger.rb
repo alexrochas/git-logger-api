@@ -11,8 +11,10 @@ class GitLogger < Sinatra::Base
     request.body.rewind  # in case someone already read it
     data = JSON.parse request.body.read
 
-    result = collection.insert_one(data)
-    result.n
+    collection.insert_one(data)
+
+    status 200
+    body ''
   end
 
 end
