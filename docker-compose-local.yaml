@@ -1,8 +1,0 @@
-db:
-  log_driver: "none"
-  image: mongo:3
-  entrypoint: [ "mongod", "--smallfiles", "--rest" ]
-  net: "host"
-  expose:
-    - "27017"
-
