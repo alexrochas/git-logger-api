@@ -9,5 +9,5 @@ group :test do
   gem 'rake'
   gem 'rspec'
   gem 'test-unit', '~> 3.2'
-  gem 'coveralls', require: false
+  gem 'coveralls', '>= 0.8.23', require: false
 end
